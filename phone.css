@@ -1,0 +1,37 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar li a{
+    padding: 0%;
+}
+#home{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 60px;
+}
+#home::before{
+    height: 525px;
+    margin-bottom: 2px;
+}
+#services {
+    flex-direction: column;
+    align-items: center;
+}
+#clients{
+    overflow: hidden;
+}
+.clients img{
+    height: 60px;
+}
+.client-item{
+    padding: 3px;
+}
+#client-section::before{
+    height: 105px;
+}
+.h-primary{
+    font-size: 1.6rem;
+}
+#contact-box input,#contact-box textarea{
+    width: 98%;
+}

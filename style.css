@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#logo img{
+    height: 60px;
+    padding: 8px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+#navbar::before{
+   content: " ";
+   background-color: black;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.5;
+
+}
+#navbar ul li{
+    font-size: 21px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 3px 22px;
+color: aliceblue;
+border-radius: 28px;
+display: block;
+}
+#navbar ul li a:hover{
+    background-color: aqua;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px 70px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+/*utility classes*/
+.h-primary{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2rem;
+    text-align: center;
+}
+#home p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#home::before{
+    content: " ";
+   background:url(images/pexels-robin-stickel-70497-modified.jpeg) no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+   height: 500px;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.6;  
+}
+#btn{
+    border: 2px solid blue;
+    padding: 3px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: rgb(228, 164, 80);
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+/* services section */
+#services{ 
+    display: flex;
+    justify-content: center;
+}
+#services .box{ 
+     border: 2px solid black;
+     margin: 2px;
+text-align: center;
+width: 360px;
+border-radius: 6px;
+}
+#services .box img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+#services .box p {
+    padding-top: 27px;
+    padding-left: 27px;
+   padding-right: 27px;
+   font-family: 'Noto Sans', sans-serif;
+/* font-family: 'Work Sans', sans-serif; */
+
+}
+#services .h-primary{
+    padding-bottom: 10px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+.clients img{
+    height: 100px;
+}
+.client-item{
+    padding: 34px;
+    
+}
+#client-section::before{
+    content: " ";
+    background-color: rgb(175, 157, 157);
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+footer{
+    height: 50px;
+}
+#contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+#contact-box input,#contact-box textarea{
+width: 100%;
+padding: 2px;
+border-radius: 20px;
+}
+#contact::before{
+    content: " ";
+    background: url(images/pexels-terje-sollie-313700.jpg)no-repeat center center/cover;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#contact-box label{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
