@@ -44,6 +44,19 @@ display: block;
 #navbar ul li a:hover{
     background-color: aqua;
 }
+.burger{
+    display: none;
+     position: absolute;
+     cursor: pointer;
+     right: 5%;
+     top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 3px;
+    margin: 5px 3px;
+}
 #home{
     display: flex;
     flex-direction: column;
@@ -153,6 +166,7 @@ footer{
 width: 100%;
 padding: 2px;
 border-radius: 20px;
+font-size: 15px;
 }
 #contact::before{
     content: " ";

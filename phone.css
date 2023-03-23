@@ -1,5 +1,9 @@
 #navbar{
-    flex-direction: column;
+    flex-direction: column;   
+}
+.navbr{
+    transition: 0.4s;
+    height: 200px;
 }
 #navbar li a{
     padding: 0%;
@@ -7,7 +11,22 @@
 #home{
     padding-left: 0%;
     padding-right: 0%;
-    padding-bottom: 60px;
+    padding-bottom: 104px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-ul-resp{
+    visibility: hidden;
 }
 #home::before{
     height: 525px;
